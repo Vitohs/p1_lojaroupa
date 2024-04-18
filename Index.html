@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Lojão</title>
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="cssv/cadastro.css" />
+</head>
+<body>
+
+    <div id="estrutura">
+        <header>
+            <h1> Lojão de Roupas </h1>
+        </header>
+        <main>
+            <h2> Cadastro do Cliente </h2>
+            
+            <form action="" method="get">
+                <fieldset>
+                    <legend>SEUS DADOS</legend>
+                    <label class="label-50">
+                        Nome: <input type="text" name="txt_nomecliente" placeholder="Nome Completo" required />
+                    </label>
+                    <label class="label-50">
+                        E-mail: <input type="email" name="txt_email" placeholder="E-mail" required />
+                    </label>
+                    <label class="label-50">
+                        Telefone: <input type="number" name="txt_telefone" placeholder="Telefone" required />
+                    </label>
+                    <label class="label-50">
+                            Data de Nascimento:  <input type="date" name="txt_data" placeholder="Data de Nascimento" required />
+                    </label>
+                    <label class="label-50">
+                            CPF: <input type="number" name="txt_cpf" placeholder="CPF (Apenas Números)" required />
+                    </label>
+                </fieldset>
+                    <fieldset>
+                        <Legend> Informações de Endereço </Legend>
+                        <label class="label-50">
+                            Rua: <input type="text" name="txt_rua" required/>
+                        </label>
+                        <label class="label-50">
+                            Bairro: <input type="text" name="txt_bairro" required />
+                        </label>
+                        <label class="label-50">
+                            Cidade: <input type="text" name="txt_cidade" required />
+                        </label>
+                        <label class="label-50">
+                            Estado: 
+                                <select>
+                                    <option value="">Selecione...</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="AC">Acre</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="GO">Goiás</option>
+                                </select>
+                        </label>
+                    </fieldset>
+
+                    <p class="center">
+                        <button type="submit" class="botao-envio">Enviar</button>
+                        <button type="reset">Limpar</button>
+                        <a href="/sobre.html">
+                        <button type="button" value="Voltar a tela inicial">Sobre Nós</button>
+                        <a href="/produtos.html">
+                        <button type="button">Ver lista</button>
+                    </a>
+                    </a>
+                    </p>
+
+
+                    <footer>
+                        Lojão de Roupas LTDA
+                    <address>
+                        Rua São Sebastião, N764
+                        - Jaú - <abbr title="São Paulo - Brazil">SP</abbr>
+                    </address>
+                    </footer>
+
+
+
+                        
+                </fieldset>
+            </form>
+        </main>
+    </div>
+
+</body>
+</html> 

@@ -1,0 +1,95 @@
+body{
+    background: #f2eab7;
+}
+
+img{
+    height: 150px;
+    width: 150px
+}
+
+thead{
+    background-color: #c90a02;
+    color: white;
+}
+
+td{
+    font-size: 25px;
+    width: 25%;
+    text-align: center;
+    border: 3px solid black;
+
+}
+
+video{
+    margin: 10px;
+    padding: 10px;
+    height: 550px;
+    float: left;
+}
+
+.esquerda{
+    display: flex;
+}
+
+article h2 {
+text-transform: uppercase;
+}
+
+#sobre{
+    margin-top: 2%;
+}
+
+#sobre aside video{
+    max-width: 100%;
+}
+
+#sobre aside, #sobre article{
+    background: rgb(255, 255, 255);
+    width: 42%;
+    float: left;
+    margin: 1%;
+    border: 3px solid#c90a02;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#sobre article{
+    width: 54%;
+    text-align: left;
+    padding: 1%;
+}
+
+#sobre article p {
+margin-bottom: 5%;
+line-height: 25px;
+}
+
+header{
+    text-align: center;
+}
+
+#fotos{
+    overflow: hidden;
+    clear: both;
+
+}
+
+figure{
+    padding: 5px;
+    max-width: 30%;
+    margin: 1%;
+    text-align: left;
+
+}
+
+#fotoss{
+    width: 500px;
+    height: 300px;
+    border: 3px solid #171f25;
+}
+
+input{
+   width: 15px;
+   height: 15px;
+}
